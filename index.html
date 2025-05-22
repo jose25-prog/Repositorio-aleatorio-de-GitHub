@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Repositorio Aleatorio de GitHub</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Repositorio Aleatorio de GitHub</h1>
+
+    <label for="language">Selecciona un lenguaje:</label>
+    <select id="language">
+      <option value="">-- Selecciona --</option>
+      <option value="JavaScript">JavaScript</option>
+      <option value="Python">Python</option>
+      <option value="Java">Java</option>
+      <option value="C%2B%2B">C++</option>
+      <option value="TypeScript">TypeScript</option>
+      <option value="Ruby">Ruby</option>
+      <option value="Go">Go</option>
+      <option value="PHP">PHP</option>
+      <option value="Rust">Rust</option>
+      <option value="Swift">Swift</option>
+    </select>
+
+    <button id="searchBtn">Buscar repositorio</button>
+    <button id="refreshBtn" style="display: none;">Actualizar</button>
+
+    <div id="status"></div>
+    <div id="repoInfo" class="repo-card"></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
